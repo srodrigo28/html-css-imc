@@ -1,0 +1,143 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+    font-family: 'Poppins', sans-serif;
+}
+
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+    background-color: #18181b;
+}
+.container{
+    display: flex;
+    align-items: center;
+    gap: 3.5rem;
+}
+#img img{
+    width: 32rem;
+}
+#calculator{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    padding: 2rem;
+    color: #f8fafc;
+    background-color: #262626;
+    border-radius: 8px;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+#title{
+    font-size: 2.25rem;
+    position: relative;
+}
+#title::after{
+    position: absolute;
+    content: '';
+    background-color: #16a34a;
+    width: 8rem;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    border-radius: 3px;
+}
+.input-box label{
+    font-size: 1.1rem;
+    color: #cbd5e1;
+    font-weight: 500;
+}
+.input-field{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3f3f46;
+    padding: 0.3rem;
+    border-radius: 3px;
+    margin-top: 3px;
+}
+.input-field span, 
+.input-field i {
+    color: #cbd5e1;
+    font-size: 1.3rem;
+    padding: 0.6rem 1rem;
+}
+.input-field input{
+    background-color: transparent;
+    border: none;
+    width: 100%;
+    font-size: 1.3rem;
+    color: #f8fafc;
+    padding: 0 0.5rem;
+}
+.input-field input::-webkit-outer-spiner-button,
+.input-field input::-webkit-inner-spiner-button {
+    appearance: none; /** Novidade */
+}
+
+.input-field input:focus{
+    outline: none;
+}
+
+#calculate{
+    border: none;
+    font-size: 1.25rem;
+    font-weight: bold;
+    background-color: #16a34a;
+    color: #f8fafc;
+    padding: 0.5rem 0;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+#result{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    border-top: 1px solid #ffffff34;
+    padding: 0.75rem 0;
+}
+
+#bmi{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    font-size: 2.25rem;
+}
+#bmi span:last-child{
+    font-size: 0.9rem;
+    color: #f8fafc;
+}
+#description{
+    width: 15.5rem;
+}
+
+#more_info{
+    border-top: 1px solid  #ffffff34;
+    padding-top: 1.5rem;
+}
+
+#more_info a{
+    color: #16a34a;
+    font-size: 0.9rem;
+    gap: 0.6rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    text-decoration: none;
+    transition: color 0.5s; /** Novidade */
+}
+
+#more_info a:hover{
+    color: #cbd5e1;
+
+}
