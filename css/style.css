@@ -23,6 +23,7 @@ body{
     width: 32rem;
 }
 #calculator{
+    max-width: 450px; /** Ajusted*/
     display: flex;
     flex-direction: column;
     gap: 2rem;
@@ -172,4 +173,10 @@ body{
         border-radius: 0;
         justify-content: center;
     }
+}
+
+/* alguns ajustes */ 
+
+input{
+    text-align: center;
 }

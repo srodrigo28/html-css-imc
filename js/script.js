@@ -32,7 +32,7 @@ form.addEventListener('submit', function (event) {
     }
 
     console.log(bmi)
-    value.textContent = bmi
+    value.textContent = bmi.toFixed(1)
     //value.textContent = bmi.replace( '.', ',');
     document.getElementById('description').textContent = description
 })
