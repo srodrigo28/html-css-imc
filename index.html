@@ -2,15 +2,16 @@
 <html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
-    <script src="./js/script.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="./css/style.css">
     <link rel="shortcut icon" href="#" type="image/x-icon">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
-    
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Barlow:ital,wght@1,600&family=Comme:wght@200&family=Noto+Sans+KR:wght@700&family=Poppins:wght@100;400;500;600;700&family=Raleway:wght@300;400;500;700&family=Ubuntu&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    
+    <script src="./js/script.js" defer></script>
     <title>IMC Responsível</title>
 </head>
 <body>
@@ -41,7 +42,7 @@
                 </div>
                 <button id="calculate">Calcular</button>
             </form>
-            <div class="infos">
+            <div id="infos" class="hidden">
                 <div id="result">
                     <div id="bmi">
                         <span id="value"></span>
