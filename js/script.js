@@ -35,4 +35,5 @@ form.addEventListener('submit', function (event) {
     value.textContent = bmi.toFixed(1)
     //value.textContent = bmi.replace( '.', ',');
     document.getElementById('description').textContent = description
+    //
 })
